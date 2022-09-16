@@ -107,6 +107,7 @@ struct ContentView: View {
           .listRowInsets(EdgeInsets()) // <-
         }
       }
+      .listStyle(PlainListStyle()) // <-
       .navigationTitle("List 예제")
     }
   }
